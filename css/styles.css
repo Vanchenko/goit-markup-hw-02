@@ -1,0 +1,88 @@
+:root {
+    --textbasecolor:#2e2f42; /* базовый цвет шрифта*/
+    --buttonbasecolor:#4d5ae5; /* цвет кнопки, эффекты */
+    --textsecondcolor: #434455; /* второй цвет шрифта*/
+    --addtextcolor: #ffffff; /*доп цвет заголовков, кнопок*/
+    --buttonbackcol: #404BBF; /*цвет бека кнопки*/
+    --footertextcol: #E7E9FC; /*цвет текста в футере*/
+}
+.global-fonts {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--textbasecolor);
+}
+.mainmenu { 
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--textbasecolor);
+}
+.mainmenu:hover {
+    color :var(--textsecondcolor);
+}
+.mainmenu:focus {
+    color: var(--buttonbasecolor);
+}
+.contacts {
+    color:var(--textsecondcolor);
+}
+.contacts:hover, .contacts:focus {
+    color: var(--buttonbasecolor);
+}
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: var(--addtextcolor);
+    background: var(--textbasecolor);
+}
+.button-order {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.04em;
+    color: var(--addtextcolor);
+    background-color: var(--buttonbasecolor);
+    cursor:pointer;
+}
+.button-order:hover {
+    background-color: var(--buttonbasecolor);
+}
+.button-order:focus {
+    background-color: var(--buttonbackcol);
+}
+.benefits-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:var(--textbasecolor);
+}
+.benefits-text {
+    color:var(--textsecondcolor);
+}
+.work-title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: var(--textbasecolor);
+    text-transform: capitalize;
+}
+.footer-text {
+    color: var(--footertextcol);
+}
+.button-filter {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.04em;
+    color: var(--buttonbasecolor);
+    cursor:pointer;
+}
