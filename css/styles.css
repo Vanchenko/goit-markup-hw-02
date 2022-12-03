@@ -15,6 +15,26 @@
     letter-spacing: 0.02em;
     color: var(--textbasecolor);
 }
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-style: bold;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--buttonbasecolor);
+}
+.logo-studio {
+   /* font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-style: bold;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;*/
+    color:var(--textbasecolor);
+}
 .mainmenu { 
     font-weight: 600;
     font-size: 16px;
