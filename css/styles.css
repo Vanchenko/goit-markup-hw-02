@@ -5,58 +5,85 @@
     --addtextcolor: #ffffff; /*доп цвет заголовков, кнопок*/
     --buttonbackcol: #404BBF; /*цвет бека кнопки*/
     --footertextcol: #E7E9FC; /*цвет текста в футере*/
+    --footerlogocol: #f4f4fd; /*цвет лого STUDIO в футере*/
 }
-.global-fonts {
+body {
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-style: normal;
     font-size: 16px;
-    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--textbasecolor);
+}
+footer {
+    background-color: var(--textbasecolor);
+}
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
 }
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
-    font-style: bold;
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    text-decoration: none;
     color: var(--buttonbasecolor);
 }
 .logo-studio {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color:var(--textbasecolor);
 }
-.mainmenu { 
-    font-weight: 600;
+.logo-studio-footer {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--footerlogocol);
+}
+.main-menu { 
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--textbasecolor);
+    text-decoration: none;
 }
-.mainmenu:hover {
+.main-menu:hover {
     color :var(--textsecondcolor);
 }
-.mainmenu:focus {
+.main-menu:focus {
     color: var(--buttonbasecolor);
 }
 .contacts {
+    text-decoration: none;
     color:var(--textsecondcolor);
 }
 .contacts:hover, .contacts:focus {
     color: var(--buttonbasecolor);
+}
+.hero-section {
+    background: var(--textbasecolor);
 }
 .hero-title {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    color: var(--addtextcolor);
-    background: var(--textbasecolor);
+    color: var(--addtextcolor);  
 }
 .button-order {
-    font-weight: 600;
+    font-family: inherit;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.04em;
@@ -71,7 +98,7 @@
     background-color: var(--buttonbackcol);
 }
 .benefits-title {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -81,7 +108,7 @@
     color:var(--textsecondcolor);
 }
 .work-title {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 36px;
     line-height: 1.1;
     letter-spacing: 0.02em;
@@ -92,10 +119,15 @@
     color: var(--footertextcol);
 }
 .button-filter {
-    font-weight: 600;
+    font-family: inherit;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
     letter-spacing: 0.04em;
     color: var(--buttonbasecolor);
     cursor:pointer;
+}
+.button-filter:hover, .button-filter:focus {
+    background: var(--buttonbasecolor);
+    color : var(--addtextcolor)
 }
