@@ -7,6 +7,7 @@
     --textbasecolor:#2e2f42; /* базовый цвет шрифта*/
     --buttonbasecolor:#4d5ae5; /* цвет кнопки, эффекты */
     --textsecondcolor: #404455; /* второй цвет шрифта*/
+    --textbenefitscol:#434455;
     --addtextcolor: #ffffff; /*доп цвет заголовков, кнопок*/
     --buttonbackcol: #404BBF; /*цвет бека кнопки*/
     --footertextcol: #f4f4fd; /*цвет текста в футере*/
@@ -30,6 +31,11 @@ p {
     margin: 0;
     padding: 0;
 }
+
+ul,
+ol {
+  list-style-type: none;
+}
 /* общий стиль хедера для страницы studio и portfolio */
 .header {
 
@@ -52,7 +58,7 @@ p {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.166;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
@@ -62,7 +68,7 @@ p {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.166;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:var(--textbasecolor);
@@ -71,7 +77,7 @@ p {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.166;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--footerlogocol);
@@ -93,6 +99,9 @@ p {
 .list-contacts {
     list-style: none;
 }
+.contacts-adr {
+    font-style: normal;
+}
 .contacts {
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -111,7 +120,7 @@ color:#434455;
 .hero-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.071;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--addtextcolor);  
@@ -151,20 +160,21 @@ color:#434455;
 }
 .benefits-text {
     line-height: 1.5;
-    color:var(--textsecondcolor);
+    color:var(--textbenefitscol);
 }
 .team {
     background-color: #F4F4FD ;
 }
 .team-text {
-    color:var(--textsecondcolor);
+    line-height: 1.5;
+    color:var(--textbenefitscol);
 }
 
 .team-title {
     font-weight: 700;
     font-style: bold;
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     color: var(--textbasecolor);
     text-transform: capitalize;
@@ -213,7 +223,7 @@ color:#434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-top: 8px;
-    color: var(--textsecondcolor);
+    color: var(--textbenefitscol);
 }
 /* общий футер */
 .footer {
