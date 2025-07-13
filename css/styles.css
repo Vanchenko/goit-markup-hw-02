@@ -6,10 +6,10 @@
 :root {
     --textbasecolor:#2e2f42; /* базовый цвет шрифта*/
     --buttonbasecolor:#4d5ae5; /* цвет кнопки, эффекты */
-    --textsecondcolor: #434455; /* второй цвет шрифта*/
+    --textsecondcolor: #404455; /* второй цвет шрифта*/
     --addtextcolor: #ffffff; /*доп цвет заголовков, кнопок*/
     --buttonbackcol: #404BBF; /*цвет бека кнопки*/
-    --footertextcol: #E7E9FC; /*цвет текста в футере*/
+    --footertextcol: #f4f4fd; /*цвет текста в футере*/
     --footerlogocol: #f4f4fd; /*цвет лого STUDIO в футере*/
 }
 body {
@@ -64,9 +64,9 @@ header .container {
 }
 .logo {
     font-family: "Raleway", sans-serif;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 18px;
-    line-height: 1.33;
+    line-height: 1.166;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
@@ -76,18 +76,18 @@ header .container {
 }
 .logo-studio {
     font-family: "Raleway", sans-serif;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 18px;
-    line-height: 1.33;
+    line-height: 1.166;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:var(--textbasecolor);
 }
 .logo-studio-footer {
     font-family: "Raleway", sans-serif;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 18px;
-    line-height: 1.33;
+    line-height: 1.166;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--footerlogocol);
@@ -103,10 +103,10 @@ header .container {
     padding: 24px 0px 24px 0px;
 }
 .menu:hover {
-    color :var(--textsecondcolor);
+    color :var(--buttonbackcol);
 }
 .menu:focus {
-    color: var(--buttonbasecolor);
+    color: var(--buttonbackcol);
 }
 .list-contacts {
     list-style: none;
@@ -120,12 +120,12 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-decoration: none;
 font-style: normal;
-color:var(--textsecondcolor);
+color:#434455;
 display : block;
 padding: 24px 0px 24px 0px;
 }
 .contacts:hover, .contacts:focus {
-    color: var(--buttonbasecolor);
+    color: var(--buttonbackcol);
 }
 /* конец хедера */
 /* страница Studio */
@@ -167,7 +167,7 @@ padding: 24px 0px 24px 0px;
     border: 0px solid var(--buttonbasecolor);
 }
 .button-order:hover {
-    background-color: var(--buttonbasecolor);
+    background-color: var(--buttonbackcol);
 }
 .button-order:focus {
     background-color: var(--buttonbackcol);
